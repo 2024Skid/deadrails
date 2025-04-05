@@ -1,1 +1,1 @@
-local v0=game.Players.LocalPlayer;local v1=game.PlaceId;local v2={[70876832253163]=httpsraw.githubusercontent.com2024Skidautowinrefsheadsmainloader.lua};local v3=v2[v1];if v3 then local v4,v5=pcall(function() return gameHttpGet(v3,true);end);if v4 then loadstring(v5)();end end
+
