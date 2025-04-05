@@ -9,7 +9,7 @@ local scriptUrl = Games[placeId]
 
 if scriptUrl then
     local suc, res = pcall(function()
-        return gameHttpGet(scriptUrl, true)
+        return game:HttpGet(scriptUrl, true)
     end)
     
     if suc then
